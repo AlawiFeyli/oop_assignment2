@@ -1,36 +1,17 @@
-# oop_assignment2
+# oop_assignment 2 - build up of the oop assignment 1
+Its a SensorProgram that lets you simulate different temperature/humidity/pressure sensors and analyse the data coming from them, put threshold alarms on a specific sensor and save data to file or load data from file.
 
-# SensorSystem – Objektorienterat mätsystem i C++
-# Projektbeskrivning
-SensorSystem är ett objektorienterat program som simulerar ett mätsystem med flera sensorer. Systemet använder arv och polymorfism för att hantera olika sensortyper (temperatur, luftfuktighet, tryck) och lagrar mätvärden med tidsstämplar. Det stödjer även tröskelbaserade larm som utlöses när ett sensorvärde över- eller underskrider en definierad gräns.
+# Menu Options
+1. Add Measurement
+2. Show statistics for a Sensor
+3. Show all Measurements
+4. Save Measurements to File
+5. Load Measurements from File
+6. Configure Threshold Alarm
+7. Show Triggered Alarms
+8. Exit
 
-# Klassstruktur
-Sensor (abstrakt klass): definierar gränssnittet för alla sensorer.
-
-TemperatureSensor, HumiditySensor, PressureSensor: konkreta sensorer som ärver från Sensor.
-
-Measurement (struct): innehåller sensorvärde, enhet, namn och tidsstämpel.
-
-MeasurementStorage: lagrar och hanterar mätningar, inklusive statistik och filhantering.
-
-Threshold (struct): definierar tröskelregler för larm.
-
-main.cpp: innehåller menyflöde, sensorinstanser, tröskelhantering och larmlogik.
-
-
-# Funktioner
-Samla mätningar från alla sensorer
-
-Visa statistik (medelvärde, min, max, standardavvikelse)
-
-Spara/ladda mätningar till/från fil
-
-Konfigurera tröskelvärden för larm
-
-Visa utlösta larm med tidsstämplar och regelbeskrivning
-
-# Filstruktur
-plaintext
+# Filstructure
 SensorSystem/
 ├── main.cpp
 ├── sensor.h
@@ -44,5 +25,5 @@ SensorSystem/
 ├── measurementStorage.h
 ├── measurementStorage.cpp
 ├── threshold.h
-├── data.txt                # (skapas vid filsparning)
-├── README.md               # (denna fil)
+├── data.txt
+├── README.md
