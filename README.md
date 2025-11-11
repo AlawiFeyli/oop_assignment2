@@ -1,6 +1,9 @@
 # oop_assignment 2 - build up of the oop assignment 1
 Its a SensorProgram that lets you simulate different temperature/humidity/pressure sensors and analyse the data coming from them, put threshold alarms on a specific sensor and save data to file or load data from file.
 
+# GitHub repo:
+https://github.com/AlawiFeyli/oop_assignment2
+
 # Menu Options
 1. Add Measurement
 2. Show statistics for a Sensor
